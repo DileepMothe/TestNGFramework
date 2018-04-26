@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test Suite">
+<!-- <suite name="Automation Test Suite" preserve-order="true" parallel="classes" thread-count="2"> -->
+<listeners>
+<listener class-name="com.test.uiautomation.Automation.customListner.Listner"></listener>
+<listener class-name="com.test.uiautomation.Automation.customListner.RetryListner"></listener>
+</listeners>
+<!-- <test name="HomePage Testing">
+<classes>
+<class name="com.test.uiautomation.Automation.homePage.TC001_VerifyLoginWithInvalidCredentials"/>
+</classes>
+</test> -->
+<test name="RegistrationPage Testing">
+<classes>
+<class name="com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData"/>
+</classes>
+</test>
+</suite>

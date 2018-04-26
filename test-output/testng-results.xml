@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Started RunningverifyLoginWithInvalidCredentials]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\workspace\Automation\src\main\java\com\test\uiautomation\Automation\success_screenshots\verifyLoginWithInvalidCredentials_13_52_2018_04_52_11.png'> <img src='D:\workspace\Automation\src\main\java\com\test\uiautomation\Automation\success_screenshots\verifyLoginWithInvalidCredentials_13_52_2018_04_52_11.png'height='100 width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Test Suite" duration-ms="31943" started-at="2018-03-13T11:21:40Z" finished-at="2018-03-13T11:22:12Z">
+    <groups>
+    </groups>
+    <test name="RegistrationPage Testing" duration-ms="31943" started-at="2018-03-13T11:21:40Z" finished-at="2018-03-13T11:22:12Z">
+      <class name="com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData@64bf3bbf]" name="setUP" is-config="true" duration-ms="12558" started-at="2018-03-13T11:21:41Z" finished-at="2018-03-13T11:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData@64bf3bbf]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-03-13T11:21:53Z" finished-at="2018-03-13T11:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData.verifyLoginWithInvalidCredentials() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials()[pri:0, instance:com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData@64bf3bbf]" name="verifyLoginWithInvalidCredentials" duration-ms="17862" started-at="2018-03-13T11:21:53Z" finished-at="2018-03-13T11:22:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started RunningverifyLoginWithInvalidCredentials]]>
+            </line>
+            <line>
+              <![CDATA[<a href='D:\workspace\Automation\src\main\java\com\test\uiautomation\Automation\success_screenshots\verifyLoginWithInvalidCredentials_13_52_2018_04_52_11.png'> <img src='D:\workspace\Automation\src\main\java\com\test\uiautomation\Automation\success_screenshots\verifyLoginWithInvalidCredentials_13_52_2018_04_52_11.png'height='100 width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData@64bf3bbf]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-03-13T11:22:11Z" finished-at="2018-03-13T11:22:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=TC001_VerifyRegistrationWithValidData.verifyLoginWithInvalidCredentials()[pri:0, instance:com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData@64bf3bbf] output=Test Started RunningverifyLoginWithInvalidCredentials]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData@64bf3bbf]" name="endTest" is-config="true" duration-ms="1086" started-at="2018-03-13T11:22:11Z" finished-at="2018-03-13T11:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData -->
+    </test> <!-- RegistrationPage Testing -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>

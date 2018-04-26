@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.test.uiautomation.Automation.customListner.Listner"/>
+    <listener class-name="com.test.uiautomation.Automation.customListner.RetryListner"/>
+  </listeners>
+  <test thread-count="5" name="Reggression Testing(failed)">
+    <classes>
+      <class name="com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData">
+        <methods>
+          <include name="verifyLoginWithInvalidCredentials"/>
+          <include name="setUP"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.test.uiautomation.Automation.registrationPage.TC001_VerifyRegistrationWithValidData -->
+    </classes>
+  </test> <!-- Reggression Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
